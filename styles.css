@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    font-weight: bold;
+    letter-spacing: 2px;
+    /* font-size: 35px; */
+}
+
+.nav-link:hover{
+    background: #FF0000;
+    color : white;
+    border-radius: 5px;
+}
+.navbar-nav{
+    margin:0 auto;
+}
+nav {
+    background-color: black;
+}
+.nav-link {
+    color: #D6002B;
+}
+button .navbar-toggler-icon {
+   border: 3px solid white;
+   border-radius: 5px;
+}
+h2 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-weight: lighter;
+    font-size: 5vh;
+}
+.sec {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+.sec1 {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    border: 1px solid #FF0000;
+    border-radius: 5px;
+    gap: 20px;
+    width: 30vw;
+}
+.sec1 button {
+    background-color: #FF0000;
+    color: white;
+    border: none;
+    padding: 20px;
+    width: 22vw;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.pls {
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    font-size: 4vh;
+    font-weight: lighter;
+}
+.sec2 {
+    border: 1px solid #FF0000;
+    padding: 30px;
+    border-radius: 5px;
+}
+.sec2 p {
+    color: #FF0000;
+}
+.glo {
+    text-align: center;
+    color: #FF0000;
+}
+.sec3 {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    padding-top: 20px;
+}
+.sec4 {
+    display: flex;
+    padding-top: 60px;
+    gap: 30px;
+}
+.sec5 {
+    padding-top: 10px;
+}
+.sec4 h5 {
+    font-size: 2vh;
+}
+.link {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.sec6 h6{
+    font-weight: lighter;
+}
